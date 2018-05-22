@@ -10,7 +10,6 @@ app.set('view engine', 'ejs');
 var entries = [];
 app.locals.entries = entries;
 
-var Cesar = true;
 
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
